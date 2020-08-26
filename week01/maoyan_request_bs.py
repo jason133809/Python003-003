@@ -44,10 +44,3 @@ vdata={'tital':l,'attrs':list1,'relasetime':list2}
 df=pd.DataFrame(vdata)
 
 df.to_csv('D:\\maoyan.csv',encoding='utf_8_sig')
-
-
-#for tags in bs_info.find_all('dl',attrs={'class':'movie-list'},limit=1):
-# for ntargs in  bs_info.find_all('div',attrs={'class':'movie-hover-info'},limit=10):
-#     print(ntargs.find('div',attrs='movie-hover-title').find('span')[0].get_text)
-#     print(ntargs.find('span',attrs='hover-tag').text)
-#     print(ntargs.find('div',attrs='movie-hover-title movie-hover-brief').text.strip('\n').strip(' '))
